@@ -1,0 +1,162 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body{
+    background-image: url('./assets/home/background-home-desktop.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.App{
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 90%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    background-color: transparent;
+}
+.firstDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navText{
+  margin-left: 10px;
+  font-size: 2rem;
+  color: white;
+
+}
+.links{
+    width:60% ;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    /* background-blend-mode: normal, normal, screen, overlay, normal;
+    box-shadow: 0px 0px 10px 1px #000000;
+    background: rgb(126, 126, 127);
+  box-shadow: 0 0 30px 5px rgba(150, 152, 153, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; */
+  background-color: rgba(228, 221, 221, 0.172); /* Adjust opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust blur radius as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  }
+  .links:hover{
+    /* transform: scale(1.05); Adjust scale factor as needed */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+.a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width:18%;
+    align-items: center;
+}
+.a::after, .a::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+/* small{
+    margin-left: 29px;
+    margin-right: 10px;
+} */
+ small{
+    margin-left: 60px;
+ }
+.text{
+    color: white;
+    margin-right: 90px;
+}
+.hr{
+    width: 30%;
+    height: 0;
+    margin-left: 200px;
+    
+}
+.homeCon{
+    color: white;
+    height: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firtHomeDiv{
+    width: 50%;
+    height: 100%;
+}
+.secondHomeDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.destination{
+    color: white;
+}
+.roundFigure{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 300px;
+    font-size: 2rem;
+    position: absolute;
+    border: 1px solid #ccc; /* Adjust border style, width, and color as needed */
+    transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+.roundFigure:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust shadow offset, blur, color, and opacity */
+    background-color: rgba(228, 221, 221, 0.172); /* Adjust opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust blur radius as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+.texts{
+    position: relative;
+    top: 200px;
+    
+}
+.inline{
+    font-weight: 2rem;
+    font-size: 2rem;
+    letter-spacing: 2px; /* Adjust the spacing amount as needed */
+}
+b{
+    font-size: 6rem;
+    letter-spacing: 20px; /* Adjust the spacing amount as needed */
+    line-height: 1; /* Increase the line height to double the default */
+}
+.pt{
+    margin-top: 80px;
+    line-height: 2.2; /* Increase the line height to double the default */
+
+}
